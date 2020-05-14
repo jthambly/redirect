@@ -1,6 +1,9 @@
 FROM nginx:1.17-alpine
 MAINTAINER Jason Hambly contact@jasonhambly.id.au
 
+# Upgrade packages
+RUN apk -U upgrade
+
 # Copy content
 COPY docroot /usr/share/nginx/html
 
