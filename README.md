@@ -1,4 +1,6 @@
-# redirect - Simple redirection page.
+# redirect
+
+Simple redirection page.
 
 &nbsp;
 
