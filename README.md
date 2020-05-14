@@ -1,6 +1,4 @@
-# redirect
-
-Simple redirection page for HTML/HTTP redirection.
+# redirect - Simple redirection page.
 
 &nbsp;
 
