@@ -14,4 +14,4 @@ sed -i "s@REDIRECT_URL@$REDIRECT_URL@g" /usr/share/nginx/html/index.html
 sed -i "s@REDIRECT_TIME@$REDIRECT_TIME@g" /usr/share/nginx/html/index.html
 
 # Default Command
-exec nginx -g 'daemon off;'
+/usr/sbin/nginx -g 'daemon off;'
