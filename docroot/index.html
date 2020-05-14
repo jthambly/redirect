@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Page Redirect</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="common/redirect.js"></script>
+        <link type="text/css" rel="stylesheet" href="/common/redirect.css">
+    </head>
+
+    <body onLoad="configure('REDIRECT_URL',REDIRECT_TIME);start();">
+        <div id='msg'>This page will be redirected to </div>
+        <div id='urlArea'><a id='url' href="REDIRECT_URL">REDIRECT_URL</a></div> 
+        <div id='timer'></div>
+        <div><a id='cancel' href='#' onclick="stop();return false;">Cancel</a></div>
+    </body>
+
+</html>
